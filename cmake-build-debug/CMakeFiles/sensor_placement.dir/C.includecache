@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/epanet2.h
+
+D:/CLionProjects/sensor-placement/src/main.c
+stdio.h
+-
+stdlib.h
+-
+epanet2.h
+D:/CLionProjects/sensor-placement/src/epanet2.h
+

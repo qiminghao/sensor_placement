@@ -1,0 +1,3 @@
+D:/CLionProjects/sensor-placement/cmake-build-debug/CMakeFiles/sensor_placement.dir
+D:/CLionProjects/sensor-placement/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/sensor-placement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
