@@ -13,6 +13,12 @@ stdio.h
 -
 stdlib.h
 -
+time.h
+-
+string.h
+-
+windows.h
+-
 epanet2.h
 D:/CLionProjects/sensor-placement/src/epanet2.h
 
