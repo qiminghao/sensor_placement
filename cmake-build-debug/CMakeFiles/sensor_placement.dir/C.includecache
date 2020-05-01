@@ -17,7 +17,7 @@ time.h
 -
 string.h
 -
-windows.h
+math.h
 -
 epanet2.h
 D:/CLionProjects/sensor-placement/src/epanet2.h
