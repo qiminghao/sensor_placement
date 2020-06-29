@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\MyProgram\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\MyProgram\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CLionProjects\sensor-placement
+CMAKE_SOURCE_DIR = D:\workspace\CLion\sensor_placement
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CLionProjects\sensor-placement\cmake-build-debug
+CMAKE_BINARY_DIR = D:\workspace\CLion\sensor_placement\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/sensor_placement.dir/all:
 	$(MAKE) -f CMakeFiles\sensor_placement.dir\build.make CMakeFiles/sensor_placement.dir/depend
 	$(MAKE) -f CMakeFiles\sensor_placement.dir\build.make CMakeFiles/sensor_placement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\sensor-placement\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sensor_placement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workspace\CLion\sensor_placement\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sensor_placement"
 .PHONY : CMakeFiles/sensor_placement.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_placement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\sensor-placement\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\CLion\sensor_placement\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sensor_placement.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\sensor-placement\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\CLion\sensor_placement\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sensor_placement.dir/rule
 
 # Convenience name for target.

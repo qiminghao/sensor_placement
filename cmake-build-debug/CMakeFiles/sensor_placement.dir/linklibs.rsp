@@ -1,1 +1,1 @@
- -LD:/CLionProjects/sensor-placement/lib -lepanet2 -lepanet2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -LD:/workspace/CLion/sensor_placement/lib -lepanet2 -lepanet2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

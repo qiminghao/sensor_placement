@@ -8,78 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CLionProjects/sensor-placement/cmake-build-debug"/>
+				<Option working_dir="D:/workspace/CLion/sensor_placement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_placement">
-				<Option output="D:/CLionProjects/sensor-placement/bin/sensor_placement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/sensor-placement/bin"/>
+				<Option output="D:/workspace/CLion/sensor_placement/bin/sensor_placement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/CLion/sensor_placement/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/CLionProjects/sensor-placement/include"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/workspace/CLion/sensor_placement/include"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_placement"/>
-					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_placement"/>
+					<CompileFile command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_placement/fast">
-				<Option output="D:/CLionProjects/sensor-placement/bin/sensor_placement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/sensor-placement/bin"/>
+				<Option output="D:/workspace/CLion/sensor_placement/bin/sensor_placement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/CLion/sensor_placement/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/CLionProjects/sensor-placement/include"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/workspace/CLion/sensor_placement/include"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MyProgram/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_placement/fast"/>
-					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_placement/fast"/>
+					<CompileFile command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CLionProjects/sensor-placement/cmake-build-debug"/>
+				<Option working_dir="D:/workspace/CLion/sensor_placement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CLionProjects/sensor-placement/cmake-build-debug"/>
+				<Option working_dir="D:/workspace/CLion/sensor_placement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/sensor-placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MyProgram/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/CLion/sensor_placement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionProjects/sensor-placement/src/main.c">
+		<Unit filename="D:/workspace/CLion/sensor_placement/src/main.c">
 			<Option target="sensor_placement"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/sensor-placement/CMakeLists.txt">
+		<Unit filename="D:/workspace/CLion/sensor_placement/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

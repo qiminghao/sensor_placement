@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/CLionProjects/sensor-placement/src/main.c" "D:/CLionProjects/sensor-placement/cmake-build-debug/CMakeFiles/sensor_placement.dir/src/main.c.obj"
+  "D:/workspace/CLion/sensor_placement/src/main.c" "D:/workspace/CLion/sensor_placement/cmake-build-debug/CMakeFiles/sensor_placement.dir/src/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

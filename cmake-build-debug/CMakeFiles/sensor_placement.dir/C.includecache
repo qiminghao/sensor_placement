@@ -8,7 +8,7 @@
 
 ../include/epanet2.h
 
-D:/CLionProjects/sensor-placement/src/main.c
+D:/workspace/CLion/sensor_placement/src/main.c
 stdio.h
 -
 stdlib.h
@@ -20,5 +20,5 @@ string.h
 math.h
 -
 epanet2.h
-D:/CLionProjects/sensor-placement/src/epanet2.h
+D:/workspace/CLion/sensor_placement/src/epanet2.h
 
